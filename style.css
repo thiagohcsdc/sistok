@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+}
+
+body{
+    width: 100vw;
+    height: 3817px;
+}
+
+nav{
+    display: flex;
+    width: 100vw;
+    height: 108px;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    list-style: none;
+
+}
+
+nav img{
+    
+   margin-right: 50px;
+
+}
+
+nav li{
+
+    color: #4C5D73;
+    margin-left: 90px;
+    word-spacing: 15px;
+    list-style: none;
+    text-decoration: none;
+    text-align: center;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+
+.entrar{
+    margin-left: 20px;
+    width: 150px;
+    height: 44px;
+    border-radius: 8px;
+    border: 2px solid #304F8C;
+    color: #304F8C;
+    background-color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.cadastro{
+    margin-left: 60px;
+    text-decoration: none;
+    color: #304F8C;
+}
+
+.conhecer{
+    width: 200px;
+    height: 54px;
+    border-radius: 10px;
+    border: 2px solid transparent;
+    background-color: #304F8C;
+    color: white;
+}
+
+.cases{
+    
+    width: 200px;
+    height: 44px;
+    border-radius: 8px;
+    border: 2px solid #304F8C;
+    color: #304F8C;
+    background-color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.main{
+    width: 1136px;
+    height: 521px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
